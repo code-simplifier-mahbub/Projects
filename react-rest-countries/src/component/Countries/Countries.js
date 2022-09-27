@@ -19,9 +19,7 @@ const Countries = () => {
             <h2>Latur Desh.Com</h2>
             {
                 Countries.map(country => <Country 
-                    name={country.name.common}
-                    population={country.population}
-                    area={country.area}
+                    country={country}
                     ></Country>)
             }
         </div>
